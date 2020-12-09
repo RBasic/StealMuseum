@@ -34,7 +34,7 @@
 		},
 		{
 			"Name": "VivoxVoiceChat",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
