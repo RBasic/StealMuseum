@@ -10,6 +10,8 @@ public class StealMuseumEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "StealMuseum" } );
+        bUsesSteam = true;
+
+        ExtraModuleNames.AddRange( new string[] { "StealMuseum" } );
 	}
 }
