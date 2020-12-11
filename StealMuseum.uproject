@@ -18,6 +18,23 @@
 		{
 			"Name": "AdvancedSteamSessions",
 			"Enabled": true
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SoundUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "VivoxVoiceChat",
+			"Enabled": false
 		}
 	]
 }
